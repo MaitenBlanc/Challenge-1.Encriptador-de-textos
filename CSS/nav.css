@@ -1,0 +1,16 @@
+body {
+    background: #F3F5FC;
+}
+
+.logo-a {
+    padding: 2.5em 0 0 2.5em;
+    color: #0A3871;
+}
+
+.titulo {
+    text-align: center;
+    color: #0A3871;
+    font-size: 4em;
+    font-weight: bold;
+    text-decoration: underline;
+}
