@@ -14,3 +14,24 @@ body {
     font-weight: bold;
     text-decoration: underline;
 }
+
+.campo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3em;
+    border: none;
+    
+}
+
+.area-texto {
+    background: transparent;
+    border: none;
+}
+
+.area-texto:focus {
+    outline: none;
+}
+
+
+
