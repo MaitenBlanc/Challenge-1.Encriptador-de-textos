@@ -45,7 +45,7 @@ body {
     z-index: -1;
 }
 
-.muñeco {
+.munieco {
     float: right;
     /* margin-right: 0;*/
     grid-column: 2;
