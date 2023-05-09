@@ -62,11 +62,15 @@ body {
 
     /* Ingrese el texto aqui */
 
+    background: transparent;
+    border-radius: 0.2em;
+    border: 0.05em solid #0A3871;
     position: absolute;
     width: 577px;
     height: 48px;
     left: 240px;
     top: 168px;
+    outline: none; 
 
     font-family: 'Inter';
     font-style: normal;
