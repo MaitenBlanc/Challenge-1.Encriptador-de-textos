@@ -112,3 +112,13 @@ body {
     }
 }
 
+.encriptar:hover {
+    background: #082e5c;
+    transition: 0.5s;
+}
+
+.desencriptar:hover {
+    background: #dfe5fa;
+    transition: 0.5s;
+}
+
