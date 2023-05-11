@@ -18,7 +18,7 @@ body {
 .campo {
 
     display: grid;
-    /* align-items: center; */
+    align-items: center;
     margin-top: 3em;
     border: none;
     grid-column: 1;
@@ -32,30 +32,29 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
-    gap: 16px;
+    gap: 1em;
 
     position: absolute;
-    width: 336px;
-    height: 122px;
-    left: 1032px;
-    top: 619px;
+    width: 20.5em;
+    height: 7.3em;
+    left: 61.2em;
+    top: 37em;
 }
 
 .rectangulo {
     position: absolute;
-    width: 400px;
-    height: 944px;
-    left: 1000px;
-    top: 40px;
+    width: 24em;
+    height: 56.6em;
+    left: 60em;
+    top: 2.4em;
 
     /* White */
 
     background: #FFFFFF;
     /* shadow */
 
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 32px;
+    box-shadow: 0em 1.5em 1.9em -0.5em rgba(0, 0, 0, 0.08);
+    border-radius: 1.9em;
 }
 
 .area-texto {
@@ -66,16 +65,16 @@ body {
     border-radius: 0.2em;
     border: 0.05em solid #0A3871;
     position: absolute;
-    width: 577px;
-    height: 48px;
-    left: 240px;
-    top: 168px;
+    width: 18em;
+    height:1.5em;
+    left: 8.2em;
+    top: 6em;
     outline: none; 
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 150%;
 
     color: #0A3871;
@@ -83,8 +82,33 @@ body {
 
 .munieco {
     position: absolute;
-    width: 336px;
-    height: 304px;
-    left: 1032px;
-    top: 283px;
+    width: 20.1em;
+    height: 18.3em;
+    left: 62em;
+    top: 17.2em;
 }
+
+.botones {
+    .encriptar, .desencriptar {
+        width: 15em;
+        height: 4em;
+        background: #0A3871;
+        color: white;
+        border-radius: 1.5em;
+        border: none;
+        position: relative;
+        margin-left: 16.5em;
+        margin-top: 40em;
+        cursor: pointer;
+
+        font-size: 1em;
+    }
+
+    .desencriptar {
+        background: transparent;
+        color: #0A3871;
+        border: 0.1em solid #0A3871;
+        margin-left: 4em;
+    }
+}
+
