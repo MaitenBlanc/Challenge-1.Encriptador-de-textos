@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background: #F3F5FC;
 }
@@ -84,3 +85,136 @@ body {
     left: 1032px;
     top: 283px;
 }
+=======
+body {
+    background: #F3F5FC;
+}
+
+.logo-a {
+    padding: 2.5em 0 0 2.5em;
+    color: #0A3871;
+}
+
+.titulo {
+    text-align: center;
+    color: #0A3871;
+    font-size: 4em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.campo {
+
+    display: grid;
+    align-items: center;
+    margin-top: 3em;
+    border: none;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.text-box {
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+
+    position: absolute;
+    width: 20.5em;
+    height: 7.3em;
+    left: 61.2em;
+    top: 37em;
+}
+
+.rectangulo {
+    position: absolute;
+    width: 24em;
+    height: 56.6em;
+    left: 60em;
+    top: 2.4em;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0em 1.5em 1.9em -0.5em rgba(0, 0, 0, 0.08);
+    border-radius: 1.9em;
+}
+
+.area-texto {
+
+    /* Ingrese el texto aqui */
+
+    background: transparent;
+    border-radius: 0.2em;
+    border: 0.05em solid #0A3871;
+    position: absolute;
+    width: 18em;
+    height:1.5em;
+    left: 8.2em;
+    top: 6em;
+    outline: none; 
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 140%;
+
+    color: #0A3871;
+}
+
+.munieco {
+    position: absolute;
+    width: 20.1em;
+    height: 18.3em;
+    left: 62em;
+    top: 17.2em;
+}
+
+.botones p {
+    position: relative;
+    margin-left: 18em;
+    padding-bottom: 0.5em;
+    margin-top: 40em;
+    color: grey;
+}
+
+.botones {
+    .encriptar, .desencriptar {
+        width: 15em;
+        height: 4em;
+        background: #0A3871;
+        color: white;
+        border-radius: 1.5em;
+        border: none;
+        position: relative;
+        margin-left: 16.5em;
+        cursor: pointer;
+
+        font-size: 1em;
+    }
+
+    .desencriptar {
+        background: transparent;
+        color: #0A3871;
+        border: 0.1em solid #0A3871;
+        margin-left: 4em;
+    }
+}
+
+.encriptar:hover {
+    background: #082e5c;
+    transition: 0.5s;
+}
+
+.desencriptar:hover {
+    background: #dfe5fa;
+    transition: 0.5s;
+}
+
+>>>>>>> master
